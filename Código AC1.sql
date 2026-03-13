@@ -13,7 +13,7 @@ ORDER BY ReceitaTotal DESC;
 
 
 
--- Evolução anual de Receita e Lucro por Canal de venda
+-- EvoluÃ§Ã£o anual de Receita e Lucro por Canal de venda
 
 WITH ReceitaAnoCanal AS (
 SELECT 
