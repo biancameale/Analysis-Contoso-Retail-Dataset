@@ -5,7 +5,7 @@ A base Contoso é um conjunto de dados fictício que simula as operações de um
 Link Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.aspx?id=18279
 
 ## Descrição do Projeto
-Projeto de análise exploratória dos dados de vendas da base Contoso utilizando SQL para identificar padrões de receita, lucro e desempenho dos canais de venda.
+Projeto de análise exploratória dos dados de vendas da base Contoso utilizando SQL para identificar padrões de receita, lucro e desempenho dos canais de vendas para tomada de decisões estratégicas.
 
 ## Tecnologias utilizadas
 - SQL
