@@ -17,6 +17,7 @@ Projeto de análise exploratória dos dados de vendas da base Contoso utilizando
 - Margem de lucro por canal
 
 ## Principais Insights
-- O canal Store concentra a maior parte da receita
-- As margens de lucro são consistentes (~56%)
-- O canal Online apresenta maior crescimento
+- O canal Store concentra a maior parte da receita, representando maior volume de vendas.
+- As margens de lucro são consistentes (~56%) em todos os canais de vendas.
+- O canal de vendas Online foi o único que apresentou crescimento consistente.
+- A análise indica uma mudança gradual no comportamento de compras, sugerindo uma oportunidade de fortalecer e investir no canal Online.
