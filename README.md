@@ -19,8 +19,8 @@ Link Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.asp
 
 ## Análises realizadas
 - Receita por canal de vendas
-- Crescimento de receita por ano
 - Margem de lucro por canal
+- Crescimento de receita por ano
 
 ## Principais Insights
 - O canal Store concentra a maior parte da receita, representando maior volume de vendas.
