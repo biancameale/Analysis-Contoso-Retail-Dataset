@@ -9,6 +9,7 @@ Projeto de análise exploratória dos dados de vendas da base Contoso utilizando
 
 ## Sobre a base de dados
 A base Contoso é um conjunto de dados fictício que simula as operações de uma empresa de varejo chamada Contoso, criado pela Microsoft para fins educacionais e de demonstração. Ela representa os dados de uma empresa de varejo que vende produtos por diferentes canais, permitindo analisar o funcionamento do negócio e o desempenho das vendas.
+
 Link Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.aspx?id=18279
 
 ## Tabelas utilizadas
