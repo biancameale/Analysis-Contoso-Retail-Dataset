@@ -1,4 +1,5 @@
 -- Análise 1: Receita, lucro e margem por canal de venda
+
 SELECT 
     c.ChannelName,
     SUM(f.SalesAmount) AS ReceitaTotal,
@@ -12,6 +13,7 @@ ORDER BY ReceitaTotal DESC;
 
 
 -- Análise 2: Evolução anual de Receita e Lucro por Canal de venda
+
 WITH ReceitaAnoCanal AS (
 SELECT 
     d.CalendarYear,
