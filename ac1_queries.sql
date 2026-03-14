@@ -1,5 +1,4 @@
--- Receita, lucro e margem por canal de venda
-
+-- Análise 1: Receita, lucro e margem por canal de venda
 SELECT 
     c.ChannelName,
     SUM(f.SalesAmount) AS ReceitaTotal,
@@ -12,9 +11,7 @@ GROUP BY c.ChannelName
 ORDER BY ReceitaTotal DESC;
 
 
-
--- Evolução anual de Receita e Lucro por Canal de venda
-
+-- Análise 2: Evolução anual de Receita e Lucro por Canal de venda
 WITH ReceitaAnoCanal AS (
 SELECT 
     d.CalendarYear,
@@ -31,14 +28,10 @@ SELECT
     ChannelName,
     ReceitaTotal,
     LucroLiquido,
-
--- Crescimento da Receita vs Ano Anterior
 CAST(
     (ReceitaTotal - 
 	LAG(ReceitaTotal) OVER (PARTITION BY ChannelName ORDER BY CalendarYear)) * 100.0 /
     LAG(ReceitaTotal) OVER (PARTITION BY ChannelName ORDER BY CalendarYear) AS DECIMAL(6,2)) AS CrescimentoReceitaPercentual,
-
--- Crescimento do Lucro vs Ano Anterior
 CAST((LucroLiquido - 
 	LAG(LucroLiquido) OVER (PARTITION BY ChannelName ORDER BY CalendarYear)) * 100.0 /
     LAG(LucroLiquido) OVER (PARTITION BY ChannelName ORDER BY CalendarYear) AS DECIMAL(6,2)) AS CrescimentoLucroPercentual
