@@ -6,13 +6,11 @@ Disciplina: Software Product: Analysis, Specification, Project & Implementation
 
 Projeto: Sales Performance Analysis – Contoso Retail Dataset 
 
-Descrição: Este projeto tem como objetivo realizar uma análise exploratória e estratégica dos dados de 
-vendas da base Contoso, utilizando consultas SQL para identificar padrões de comportamento de 
-receita, custo, lucro e desempenho dos canais de venda ao longo do tempo. A partir desses dados, 
-foram gerados insights de negócio relacionados à participação de cada canal na geração de receita, 
-estabilidade das margens de lucro e tendências de crescimento ou retração ao longo dos anos. Os 
-resultados da análise permitem identificar oportunidades estratégicas, como o potencial de 
+Descrição: Este projeto tem como objetivo realizar uma análise exploratória e estratégica dos dados de vendas da base Contoso, utilizando consultas SQL para identificar padrões de comportamento de 
+receita, custo, lucro e desempenho dos canais de venda ao longo do tempo. A partir desses dados, foram gerados insights de negócio relacionados à participação de cada canal na geração de receita, 
+estabilidade das margens de lucro e tendências de crescimento ou retração ao longo dos anos. Os resultados da análise permitem identificar oportunidades estratégicas, como o potencial de 
 crescimento do canal digital e a dependência do canal físico na geração de receita. 
+
 Tecnologias utilizadas: SQL Server, SQL (queries analíticas) 
 
 Participantes: 
