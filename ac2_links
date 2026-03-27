@@ -1,0 +1,27 @@
+FACULDADE IMPACTA 
+Entrega AC2 – Data: 12/04/2026
+
+Disciplina: Software Product: Analysis, Specification, Project & Implementation
+
+Projeto: Global Insights – Contoso Retail Dataset
+
+Descrição: A análise tem como objetivo avaliar o desempenho de vendas e lucratividade da base Contoso, considerando a distribuição de receita e lucro por país. 
+A proposta é fornecer uma visão clara sobre como os resultados estão distribuídos globalmente e identificar possíveis oportunidades de melhoria e crescimento. 
+Os dados demonstram que a operação apresenta forte concentração de receita em poucos países, com destaque para os Estados Unidos, seguidos por China e Alemanha. 
+Observa-se também que a maior parte dos países possui baixa participação no faturamento total, indicando um cenário de desigualdade na distribuição de resultados. 
+Além disso, há consistência entre receita e lucro nos principais mercados, sugerindo que os países com maior volume de vendas também são os mais rentáveis para o negócio.  
+A análise evidencia um modelo de negócio eficiente nos principais mercados, porém altamente concentrado. 
+Esse cenário abre espaço para estratégias de diversificação e expansão internacional, visando maior equilíbrio e sustentabilidade dos resultados a longo prazo.
+
+Tecnologias utilizadas: 
+SQL Server, SQL (queries analíticas)
+
+Participantes:
+Bianca Meale Bruni
+RA: 2401155
+
+Links
+Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.aspx?id=18279
+Board: https://trello.com/b/BEq1wqbR/board-project-data-analysis
+GitHub: https://github.com/biancameale/Analysis-Contoso-Retail-Dataset
+Video: 
