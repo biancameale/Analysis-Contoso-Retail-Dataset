@@ -9,7 +9,7 @@ SELECT
     (SUM(s.SalesAmount) * 100.0 / SUM(SUM(s.SalesAmount)) OVER()) AS perc_receita,
     (SUM(s.SalesAmount - s.TotalCost) * 100.0 / SUM(SUM(s.SalesAmount - s.TotalCost)) OVER()) AS perc_lucro
 FROM FactSales s
-JOIN DimStore st ON s.StoreKey = st.StoreKey
+JOIN DimStore st    ON s.StoreKey = st.StoreKey
 JOIN DimGeography g ON st.GeographyKey = g.GeographyKey
 GROUP BY g.RegionCountryName
 ORDER BY receita_pais DESC
