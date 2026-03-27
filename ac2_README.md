@@ -1,8 +1,7 @@
 ## Análise de Dados
 
 ## Descrição do Projeto
-Projeto de análise exploratória de dados utilizando a base Contoso.
-A análise tem como objetivo avaliar o desempenho de vendas e lucratividade, considerando a distribuição de receita e lucro por país. A proposta é fornecer uma visão clara sobre como os resultados estão distribuídos globalmente e identificar possíveis oportunidades de melhoria e crescimento. 
+Projeto de análise exploratória de dados utilizando a base Contoso. A análise tem como objetivo avaliar o desempenho de vendas e lucratividade, considerando a distribuição de receita e lucro por país. A proposta é fornecer uma visão clara de como os resultados estão distribuídos globalmente e identificar possíveis oportunidades de melhoria e crescimento.
 
 ## Tecnologias utilizadas
 - SQL
@@ -19,19 +18,24 @@ Link Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.asp
 - DimGeography: A tabela DimGeography é uma tabela de dimensão responsável por armazenar os dados geográficos, como país e região. Ela permite analisar as vendas sob a perspectiva geográfica, sendo essencial para identificar o desempenho por país.
 
 ## Análise realizada
-Os dados demonstram que a operação apresenta forte concentração de receita em poucos países, com destaque para os Estados Unidos, seguidos por China e Alemanha. Observa-se também que a maior parte dos países possui baixa participação no faturamento total, indicando um cenário de desigualdade na distribuição de resultados.
+Os dados demonstram que a operação apresenta forte concentração de receita em poucos países, com destaque para os Estados Unidos, que representam aproximadamente 56% do faturamento total, seguidos por China e Alemanha, com participações significativamente menores.
 
-Além disso, há consistência entre receita e lucro nos principais mercados, sugerindo que os países com maior volume de vendas também são os mais rentáveis para o negócio.  A análise evidencia um modelo de negócio eficiente nos principais mercados, porém altamente concentrado. 
-Esse cenário abre espaço para estratégias de diversificação e expansão internacional, visando maior equilíbrio e sustentabilidade dos resultados a longo prazo.
+Observa-se também que a maior parte dos países possui baixa participação no faturamento total, indicando uma baixa diversificação geográfica.
+
+Além disso, há consistência entre receita e lucro nos principais mercados, sugerindo que os países com maior volume de vendas também são os mais rentáveis para o negócio.
+
+Esse cenário evidencia um modelo de negócio eficiente nos principais mercados, porém altamente concentrado, o que representa um risco estratégico, já que a empresa depende fortemente de um único país para sustentar seus resultados.
 
 ## Principais insights:
-- Alta concentração de receita em um único país
-- Mercados secundários com potencial de crescimento
+- Forte concentração de receita nos Estados Unidos (~56%)
+- Alta dependência de um único mercado (risco para o negócio)
+- Mercados secundários com potencial de crescimento (China e Alemanha)
 - Baixa diversificação geográfica
 
 ## Planos de ação
-- Reduzir a dependência do mervado principal: Diminuir exposição a riscos econômicos de um único mercado
-- Desenvolver mercados atualmente com baixa participação: Explorar mercados subutilizados
-- Otimizar os produtos por região: Adaptar portfólio conforme demanda local
-- Criar monitoramento contínuo: Suportar decisões rápidas e baseadas em dados
+- Reduzir a dependência do mercado principal: diminuir a exposição a riscos concentrados nos Estados Unidos
+- Expandir mercados secundários: acelerar o crescimento em países como China e Alemanha
+- Desenvolver mercados com baixa participação: explorar regiões ainda pouco representativas
+- Otimizar estratégias por região: adaptar produtos e abordagem conforme a demanda local
+- Implementar monitoramento contínuo: acompanhar KPIs para uma tomada de decisão mais rápida
 
