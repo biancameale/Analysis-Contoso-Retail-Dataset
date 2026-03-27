@@ -1,4 +1,4 @@
--- An·lise de ParticipaÁ„o de Receita e Lucro por PaÌs
+-- An√°lise de Participa√ß√£o de Receita e Lucro por Pa√≠s
 
 SELECT 
     g.RegionCountryName AS pais,
@@ -12,4 +12,4 @@ FROM FactSales s
 JOIN DimStore st ON s.StoreKey = st.StoreKey
 JOIN DimGeography g ON st.GeographyKey = g.GeographyKey
 GROUP BY g.RegionCountryName
-ORDER BY receita_pais DESC;
+ORDER BY receita_pais DESC
