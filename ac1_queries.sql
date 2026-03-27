@@ -30,8 +30,7 @@ SELECT
     ChannelName,
     ReceitaTotal,
     LucroLiquido,
-CAST(
-    (ReceitaTotal - 
+CAST((ReceitaTotal - 
 	LAG(ReceitaTotal) OVER (PARTITION BY ChannelName ORDER BY CalendarYear)) * 100.0 /
     LAG(ReceitaTotal) OVER (PARTITION BY ChannelName ORDER BY CalendarYear) AS DECIMAL(6,2)) AS CrescimentoReceitaPercentual,
 CAST((LucroLiquido - 
