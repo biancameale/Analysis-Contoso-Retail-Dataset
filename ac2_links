@@ -1,5 +1,6 @@
 FACULDADE IMPACTA 
-Entrega AC2 – Data: 12/04/2026
+Entrega AC2
+Data: 12/04/2026
 
 Disciplina: Software Product: Analysis, Specification, Project & Implementation
 
@@ -13,15 +14,14 @@ Além disso, há consistência entre receita e lucro nos principais mercados, su
 A análise evidencia um modelo de negócio eficiente nos principais mercados, porém altamente concentrado. 
 Esse cenário abre espaço para estratégias de diversificação e expansão internacional, visando maior equilíbrio e sustentabilidade dos resultados a longo prazo.
 
-Tecnologias utilizadas: 
-SQL Server, SQL (queries analíticas)
+Tecnologias utilizadas: SQL Server, SQL (queries analíticas)
 
 Participantes:
 Bianca Meale Bruni
 RA: 2401155
 
 Links
-Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.aspx?id=18279
-Board: https://trello.com/b/BEq1wqbR/board-project-data-analysis
-GitHub: https://github.com/biancameale/Analysis-Contoso-Retail-Dataset
-Video: 
+- Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.aspx?id=18279
+- Board: https://trello.com/b/BEq1wqbR/board-project-data-analysis
+- GitHub: https://github.com/biancameale/Analysis-Contoso-Retail-Dataset
+- Video: 
