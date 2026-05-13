@@ -1,0 +1,19 @@
+FACULDADE IMPACTA
+Entrega AC3 – Data: 10/05/2026
+
+Disciplina: Software Product: Analysis, Specification, Project & Implementation
+Projeto: Análise de Rentabilidade e Performance por Produtos
+Descrição: A análise mostrou que os produtos mais lucrativos da Contoso estão principalmente na categoria Computers e subtipo Projectors & Screens, com destaque para os projetores da linha Proseware, que apresentaram altos lucros e margens próximas de 66%. Isso indica que são produtos de maior valor agregado e que geram mais retorno financeiro para a empresa.
+Por outro lado, os produtos com menor lucro também pertencem principalmente à categoria Computers, porém a subcategoria Computers Accessories. Esses itens tiveram baixo retorno financeiro e pouca relevância no resultado geral do negócio, com margem percentual de aproximadamente 48%.
+A análise permitiu identificar que produtos com maior valor agregado e margens mais altas são os que geram maior retorno financeiro para a empresa. Em contrapartida, produtos acessórios, mesmo pertencendo à mesma categoria, apresentam menor lucratividade e baixo impacto estratégico no resultado do negócio. Dessa forma, utilizar indicadores de lucro e margem é essencial para apoiar decisões mais estratégicas, permitindo priorizar produtos mais rentáveis e otimizar a performance financeira da operação.
+Tecnologias utilizadas: SQL Server, SQL (queries analíticas)
+
+Participantes:
+	Bianca Meale Bruni
+RA: 2401155
+
+Links: 
+-	Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.aspx?id=18279
+-	Board: https://trello.com/b/BEq1wqbR/board-project-data-analysis
+-	GitHub: https://github.com/biancameale/Analysis-Contoso-Retail-Dataset
+- Video: https://www.loom.com/share/24582a3ed7f7436bbb2ad69f8ae42521
