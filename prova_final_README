@@ -1,0 +1,29 @@
+## Análise de Dados
+
+## Descrição do Projeto
+Projeto de análise exploratória dos dados demográficos e socioeconômicos da base Contoso utilizando SQL para identificar o perfil dos clientes em diferentes países, utilizando informações de gênero, estado civil e faixa de renda. 
+
+## Tecnologias utilizadas
+- SQL
+- SQL Server
+
+## Sobre a base de dados
+A base Contoso é um conjunto de dados fictício que simula as operações de uma empresa de varejo chamada Contoso, criado pela Microsoft para fins educacionais e de demonstração. Ela representa os dados de uma empresa de varejo que vende produtos por diferentes canais, permitindo analisar o funcionamento do negócio e o desempenho das vendas.
+
+Link Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.aspx?id=18279
+
+## Tabelas utilizadas
+- DimCustomer: é uma tabela dimensão que armazena informações demográficas e socioeconômicas dos clientes da base Contoso.
+- DimGeography: é uma tabela dimensão responsável por armazenar informações geográficas relacionadas aos clientes da base Contoso.
+
+## Análises realizadas
+- Análise da distribuição de clientes por país
+- Análise demográfica por gênero
+- Análise demográfica por estado civil
+- Análise socioeconômica por faixa de renda
+- Análise demográfica combinada: Cruzamento das variáveis País, Gênero, Estado Civil e Faixa de Renda para identificar os perfis predominantes em cada mercado.
+
+## Principais Insights
+- O perfil predominante é de clientes casados e de média renda.
+- O perfil predominante é de clientes casados e de média renda.
+- Registros classificados como "Não Informado" merecem atenção quanto a qualidade dos dados.
