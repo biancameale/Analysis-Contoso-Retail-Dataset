@@ -1,0 +1,31 @@
+## FACULDADE IMPACTA
+Entrega Prova Final – Data: 07/06/202
+
+Disciplina: Software Product: Analysis, Specification, Project & Implementation
+
+Projeto: Análise Demográfica e Socioeconômica dos Clientes por País
+
+Descrição: 
+Esta análise teve como objetivo identificar o perfil demográfico e socioeconômico dos clientes em diferentes países, utilizando informações de gênero, estado civil e faixa de renda. 
+Para isso, foi realizada a integração entre as tabelas DimCustomer e DimGeography, permitindo segmentar os clientes por localização geográfica e classificá-los em faixas de renda, possibilitando uma visão mais detalhada da composição da base de clientes. 
+A partir dos agrupamentos realizados, foram calculadas a quantidade de clientes e a participação percentual de cada perfil dentro de seu respectivo país. 
+Essa abordagem permitiu compreender a distribuição dos consumidores nos diferentes mercados, identificar padrões demográficos predominantes e gerar informações relevantes para assim apoiar em estratégias de marketing e tomada de decisões de negócio.
+
+Tecnologias utilizadas: SQL Server, SQL (queries analíticas)
+
+Participantes:
+- Bianca Meale Bruni
+- RA: 2401155
+
+Links: 
+-	Board: https://trello.com/b/BEq1wqbR/board-project-data-analysis
+-	GitHub: https://github.com/biancameale/Analysis-Contoso-Retail-Dataset
+-	Video:
+
+Diagrama Entidade-Relacionamento (DER)
+O DER representa a estrutura de dados utilizada na análise, sendo composto pelas tabelas DimCustomer e DimGeography. 
+A tabela DimCustomer armazena as informações demográficas e socioeconômicas dos clientes, como gênero, estado civil, renda anual, escolaridade, ocupação e número de filhos, tendo CustomerKey como chave primária.
+Já a tabela DimGeography contém os dados geográficos dos clientes, incluindo o país de residência, identificados pela chave primária GeographyKey.
+O relacionamento entre as tabelas é realizado por meio do campo GeographyKey, que atua como chave estrangeira na tabela DimCustomer e referencia a chave primária GeographyKey da tabela DimGeography. 
+Esse relacionamento possui cardinalidade 1:N (um para muitos), pois um mesmo país pode estar associado a vários clientes, enquanto cada cliente pertence a apenas um país.
+Essa estrutura permite enriquecer as informações dos clientes com dados geográficos, possibilitando análises segmentadas por localização.
