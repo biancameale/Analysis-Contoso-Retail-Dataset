@@ -24,7 +24,13 @@ Link Base de Dados Contoso: https://www.microsoft.com/en-us/download/details.asp
 - Análise demográfica combinada: Cruzamento das variáveis País, Gênero, Estado Civil e Faixa de Renda para identificar os perfis predominantes em cada mercado.
 
 ## Principais Insights
-- Os Estados Unidos concentram a maior parcela de clientes da base, evidenciando sua importância estratégica para o negócio.
-- O perfil predominante dos clientes é composto por indivíduos casados e pertencentes à faixa de renda média, indicando um público-alvo bem definido para ações comerciais e de marketing.
-- A existência de registros classificados como "Não Informado" sugere possíveis falhas no processo de coleta ou cadastro de dados, representando uma oportunidade de melhoria na qualidade das informações corporativas.
-- A análise demográfica permite compreender melhor a composição da carteira de clientes, fornecendo subsídios para segmentação de mercado, personalização de campanhas e definição de estratégias comerciais mais eficazes.
+- Os Estados Unidos concentram a maior parcela de clientes da base.	
+- O perfil predominante dos clientes é composto por indivíduos casados e pertencentes à faixa de renda média.	
+- Existem registros classificados como "Não Informado".	
+- A análise demográfica fornece subsídios para segmentação e personalização.	
+
+## Planos de ação
+- Desenvolver estratégias específicas para o mercado norte-americano, como campanhas promocionais segmentadas, programas de fidelização e análise detalhada do comportamento de compra dos clientes desse país, visando aumentar retenção e receita.
+- Criar ações de marketing direcionadas a esse público, oferecendo produtos, promoções e comunicações alinhadas às suas características e necessidades, aumentando a efetividade das campanhas comerciais.
+- Revisar os processos de cadastro e coleta de dados, implementando validações obrigatórias nos sistemas e rotinas periódicas de auditoria para melhorar a qualidade e a completude das informações armazenadas.
+- Implementar estratégias de segmentação de clientes com base em gênero, estado civil, renda e localização geográfica, permitindo campanhas mais personalizadas e aumentando a assertividade das ações de marketing e vendas.
