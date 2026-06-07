@@ -20,12 +20,4 @@ Participantes:
 Links: 
 -	Board: https://trello.com/b/BEq1wqbR/board-project-data-analysis
 -	GitHub: https://github.com/biancameale/Analysis-Contoso-Retail-Dataset
--	Video:
-
-Diagrama Entidade-Relacionamento (DER)
-O DER representa a estrutura de dados utilizada na análise, sendo composto pelas tabelas DimCustomer e DimGeography. 
-A tabela DimCustomer armazena as informações demográficas e socioeconômicas dos clientes, como gênero, estado civil, renda anual, escolaridade, ocupação e número de filhos, tendo CustomerKey como chave primária.
-Já a tabela DimGeography contém os dados geográficos dos clientes, incluindo o país de residência, identificados pela chave primária GeographyKey.
-O relacionamento entre as tabelas é realizado por meio do campo GeographyKey, que atua como chave estrangeira na tabela DimCustomer e referencia a chave primária GeographyKey da tabela DimGeography. 
-Esse relacionamento possui cardinalidade 1:N (um para muitos), pois um mesmo país pode estar associado a vários clientes, enquanto cada cliente pertence a apenas um país.
-Essa estrutura permite enriquecer as informações dos clientes com dados geográficos, possibilitando análises segmentadas por localização.
+-	Video: https://www.loom.com/share/eddb8d6993fb4bebb96df48d0dbcc361
